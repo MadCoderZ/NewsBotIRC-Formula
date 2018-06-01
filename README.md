@@ -10,8 +10,8 @@ Salt formula to run NewsBotIRC on a Docker container
 
 ## Installation instructions
 
-1. Clone this repo to /srv/salt
-2. Move /srv/salt/newsbot/pillar.example to /srv/pillar/newsbot.sls
+1. Copy the contents of this repo to /srv/salt
+2. Move /srv/salt/pillar.example to /srv/pillar/newsbot.sls
 3. Edit values in /srv/pillar/newsbot.sls
 4. Add the pillar file to the top.sls file in /srv/pillar/top.sls. Example of */srv/pillar/top.sls*:
 ```
