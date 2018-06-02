@@ -3,6 +3,7 @@ download_newsbot:
         - name: https://github.com/MadCoderZ/NewsBotIRC
         - rev: master
         - target: {{ salt['pillar.get']('newsbot:directory', '/tmp/newsbot') }}
+        - force_checkout: True
 
 copy_properties_file:
     file.managed:
